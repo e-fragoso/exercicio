@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lists {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .lists button {
+    margin: 0 5px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .lists button:hover {
+    background-color: #45a049;
+  }
+  
+  .container button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #007095;
+  }
+  
+  .tasks {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .task button {
+    margin-left: 10px;
+  }
+  
+  .statistics {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  

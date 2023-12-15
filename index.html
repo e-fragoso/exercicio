@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>ToDo List App</title>
+</head>
+<body>
+
+  <div id="app" class="container">
+    <h1>ToDo List App</h1>
+    <div id="lists-container" class="flex-container">
+      <div id="lists" class="lists">
+        <!-- Lists will be dynamically added here -->
+      </div>
+      <button onclick="createNewList()">Nova Lista</button>
+    </div>
+    <div id="tasks-container" class="container">
+      <h2 id="list-name">Lista Atual: </h2>
+      <ul id="tasks" class="tasks">
+        <!-- Tasks will be dynamically added here -->
+      </ul>
+      <div id="statistics" class="statistics"></div>
+      <button onclick="addNewTask()">Adicionar Tarefa</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
